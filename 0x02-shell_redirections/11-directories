@@ -1,2 +1,2 @@
-#!/bin/bashls
+#!/bin/bash
 ls -lR | grep ^d | grep -v '^d\w*\s\.' | wc -l
